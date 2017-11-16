@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.bartshealth.nhs.uk	TRUE	/	FALSE	1999999999	JSESSIONID	2~04127031A1C4B982CA4A4FB97F93D013.cfusion
+.siteimproveanalytics.com	TRUE	/	FALSE	1999999999	__cfduid	d39f3df59eba0afd05c2dcc6509b114561509670171
+

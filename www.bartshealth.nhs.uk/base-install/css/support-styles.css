@@ -1,0 +1,51 @@
+/*====
+  EMPTY STYLESHEET FOR QUICK SUPPORT FIXES (this is called after the main /styles.css file, so rules here can over-write the main ones.
+  These rules should be validated and re-incorporated as part of routine maintenance.
+====*/
+
+/*==== CSS (TEMP) ====*/
+
+/* JQUery File Upload styles */
+/*@import url('http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');*/
+@import url('jquery-file-upload/jquery.fileupload.css');
+@import url('jquery-file-upload/jquery.fileupload-ui.css');
+
+.pw-strength{margin:.5em 0;display:block;width:20%;border-top:solid 5px transparent;-webkit-transition:width .75s ease-in-out,border-color .75s ease-in-out,color .75s ease-in-out;transition:width .75s ease-in-out,border-color .75s ease-in-out,color .75s ease-in-out}.pw-strength:before{font-weight:700;font-size:110%;line-height:1.2;display:block;margin-top:.3em;content:"\00a0"}.pw-strength.pw-very-weak{border-color:#81261d}.pw-strength.pw-very-weak:before{content:"Very weak";color:#81261d}.pw-strength.pw-weak{width:40%;border-color:#c0392b}.pw-strength.pw-weak:before{content:"Weak";color:#c0392b}.pw-strength.pw-mediocre{width:60%;border-color:#e67e22}.pw-strength.pw-mediocre:before{content:"Medium";color:#e67e22}.pw-strength.pw-strong{width:80%;border-color:#2ecc71}.pw-strength.pw-strong:before{content:"Strong";color:#2ecc71}.pw-strength.pw-very-strong{width:100%;border-color:#27ae60}.pw-strength.pw-very-strong:before{content:"Very strong";color:#27ae60}
+
+@media only screen and (max-width: 768px) {
+  .type-blogsminilist .blog-posts-list .blog-posts-post {
+    width: 49.8%;
+  }
+  .type-blogsminilist .blog-posts-list .blog-posts-post .blog-post-inner .blog-post-detail-wrapper .post-title {
+	min-height: 6.2em;
+  }
+}
+
+.post-meta {
+	color: #ffffff;
+}
+
+.post-meta .post-author {
+	display: none;
+}
+
+.post-meta time,
+.post-meta span {
+	color: #4d4d4d;
+}
+
+.type-blogsminilist .post-meta {
+	color: #4d4d4d;
+}
+
+.solid-base.type-poll .poll-result-bar {
+  border-color: #ffffff;
+  border-color: rgba(255,255,255,0.3);
+}
+.solid-base.type-poll .poll-result-bar div {
+  background: #ffffff;
+}
+
+.pod-menu .menu-pod .content-item-container {
+  height: 300px;
+}

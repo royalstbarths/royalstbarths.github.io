@@ -1,0 +1,264 @@
+/*////////////////////
+// Container Styles //
+////////////////////*/
+
+.PatientAssociationWidget {
+/*    max-width: 768px; */
+/*    max-height: 700px;*/
+/*    overflow-y: scroll;*/
+    padding: 0px;
+    background: #FFFFFF;
+    text-align: left;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-header {
+    padding: 20px;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/bg-header.jpg');
+    clear: both;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-header-top {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #358bE8;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-header-bottom {
+    margin: auto auto 20px auto;
+    padding: 10px;
+    width: 400px;
+    background-color: #47a511;
+    border-bottom: 2px solid #3c8c0e;
+}
+
+/*///////////////
+// Form Styles //
+///////////////*/
+
+.PatientAssociationWidget #searchForm input {
+    display: inline-block;
+    float: left;
+}
+
+.PatientAssociationWidget #searchForm .PatientAssociationWidget-search-input {
+    font-size: 17px;
+    padding: 4px;
+    border: 1px solid #3c8c0e;
+    width: 350px;
+    margin: 1px 0px 0px 0px;
+    line-height: 100%;
+}
+
+.PatientAssociationWidget #searchForm .PatientAssociationWidget-search-submit {
+    margin-left: 10px;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-reviews {
+    max-height: 450px;
+    overflow-y: scroll;
+    border-top: 2px solid #E0E0E0;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+
+.PatientAssociationWidget .PatientAssociationWidget-review {
+    border-top: 2px solid #E0E0E0;
+    padding: 20px;
+    background-color: #F0F0F0;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review.alt {
+    border-top: 2px solid #C9DCBE;
+    background-color: #DAEDCF;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review.first {
+    border-top: none;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-title-container {
+
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-info-container {
+    margin-bottom: 10px;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-info-container-left,
+.PatientAssociationWidget .PatientAssociationWidget-review-info-container-right {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-info-container-left {
+    width: 45%;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-info-container-right {
+    text-align: right;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-date {
+    font-size: 12px;
+    line-height: 120%;
+    color: #999999;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-review-author {
+    font-size: 12px;
+    line-height: 120%;
+    color: #566767;
+}
+
+.PatientAssociationWidget .raty-rating-wrapper-readonly {
+
+    display: block;
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-footer {
+    text-align: left;
+    padding: 20px;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/bg-header.jpg');
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-footer img {
+/*    vertical-align: middle;*/
+}
+
+.PatientAssociationWidget .PatientAssociationWidget-tagline {
+    line-height: 18px;
+    font-size: 16px;
+    color: #999;
+}
+
+.PatientAssociationWidget span.green {
+    color: #47a511;
+}
+
+
+
+/*///////////
+// Sprites //
+///////////*/
+
+.PatientAssociationWidget .star-blue-fill,
+.PatientAssociationWidget .star-blue-half,
+.PatientAssociationWidget .star-blue-outline {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 19px;
+    height: 19px;
+}
+
+.PatientAssociationWidget .star-blue-fill {
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/png/star-blue.png');
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/svg/star-blue.svg'), none;
+}
+
+.PatientAssociationWidget .star-blue-half {
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/png/star-blue-half.png');
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/svg/star-blue-half.svg'), none;
+}
+
+.PatientAssociationWidget .star-blue-outline {
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/png/star-blue-outline.png');
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/svg/star-blue-outline.svg'), none;
+}
+
+.PatientAssociationWidget .btn-small-search {
+    width: 30px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/png/btn-search-small-rect.png');
+    background-image: url('https://www.iwantgreatcare.org/resources-ext/JsWidgets/images/svg/btn-search-small-rect.svg'), none;
+}
+
+/*///////////////
+// Text Styles //
+///////////////*/
+
+.PatientAssociationWidget a {
+    color: #566767;
+    text-decoration: none;
+}
+
+.PatientAssociationWidget h1 {
+    margin: 0px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 120%;
+    text-transform: initial;
+    color: #358BE8;
+}
+
+.PatientAssociationWidget h3,
+.PatientAssociationWidget h3 a {
+    margin: 0px;
+    line-height: 100%;
+    color: #358BE8;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.PatientAssociationWidget p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 110%;
+    text-align: left;
+    color: #566767;
+}
+
+/*/////////////////
+// Media Queries //
+/////////////////*/
+
+@media only screen and (max-width : 480px) {
+
+    .PatientAssociationWidget .PatientAssociationWidget-header-bottom {
+        width: 210px;
+    }
+
+    .PatientAssociationWidget #searchForm .PatientAssociationWidget-search-input {
+        width: 160px;
+        height: 20px;
+        font-size: 13px;
+    }
+
+    .PatientAssociationWidget .PatientAssociationWidget-review-info-container-left {
+        width: 100%;
+    }
+
+    .PatientAssociationWidget .PatientAssociationWidget-review-info-container-right {
+        width: 100%;
+        text-align: left;
+    }
+
+    .PatientAssociationWidget-tagline {
+        display: none;
+    }
+}
+
+/*///////////
+// Helpers //
+///////////*/
+
+.PatientAssociationWidget .clearfix:before, .PatientAssociationWidget .clearfix:after { content: ""; display: table; }
+.PatientAssociationWidget .clearfix:after { clear: both; }
+.PatientAssociationWidget .clearfix { *zoom: 1; }
+
+.PatientAssociationWidget .block { display: block; }
+
+.PatientAssociationWidget .inline { display: inline; }
+
+.PatientAssociationWidget .float-left { float: left; }
+.PatientAssociationWidget .float-right { float: right; }
